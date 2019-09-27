@@ -9,8 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Subneteo"></activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".MostrarVar"></activity>
+        <activity android:name=".MostrarEst" />
+        <activity android:name=".Variable" />
+        <activity android:name=".Estatica" />
+        <activity android:name=".SubneteoVar" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/titulo" />
+        <activity android:name=".Subneteo" />
+        <activity android:name=".Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
